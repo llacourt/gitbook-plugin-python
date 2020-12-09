@@ -82,7 +82,7 @@ function processPythonInclude( page ){
             pageContent += "```python\n"
             pageContent += pyContent + "\n";
             pageContent += "```\n";
-            pageContent += "{\% Download src=\"" + args.src + "\" \%} {\% endPython \%}\n";
+            pageContent += "{\% Download src=\"" + args.src + "\" \%} {\% endDownload \%}\n";
             if( outputContent != ""){
                 pageContent += "```\n" + outputContent + "\n```\n";
             }
