@@ -1,0 +1,22 @@
+{
+    "name": "gitbook-plugin-python",
+    "description": "Plugin for Gitbook - insert external Python files",
+    "author": "Basile Marchand <basile.marchand@gmail.com>",
+    "main": "index.js",
+    "version": "0.1.0",
+    "engines": {
+        "gitbook": "*"
+    },
+    "dependencies": {
+        "fs": "*",
+        "path": "*",
+        "url": "*",
+        "child_process": "*"
+    },
+    "homepage": "https://github.com/basileMarchand/gitbook-plugin-python",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/basileMarchand/gitbook-plugin-python.git"
+    },
+    "bugs": "https://github.com/basileMarchand/gitbook-plugin-python/issues"
+}

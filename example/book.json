@@ -1,0 +1,11 @@
+{
+    "plugins": [
+        "python"
+    ],
+    "pluginsConfig": {
+        "python":{
+            "executable": "python",
+            "timeout": 2.0
+        }
+    }
+}
